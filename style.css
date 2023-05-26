@@ -1,0 +1,193 @@
+
+
+html{
+    font-size: 14px;
+
+    margin-top: 2em;
+}
+
+*{
+    
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.618em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(90deg, #c5f5cc 0%, #c2d6f9 100%);
+}
+
+nav {
+    position: fixed;
+    size: 14px;
+    top: 0;
+    left:0;
+    width: 100%;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background: #333;
+    
+}
+
+
+nav a{
+    padding: .5em 2em;
+    
+    text-decoration: none;
+    color: #ddd;
+    background: #333;
+}
+
+nav a:hover {
+    background: #666;
+
+}
+
+header{
+    text-align: center;
+    font-size: 115%;
+    
+}
+
+h1{
+    color: #735D78;
+}
+
+header,
+main,
+footer{
+    margin: 0 auto;
+    max-width:850px ;
+
+
+}
+
+
+#personal{
+    
+    padding: 40px;
+    
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto 25px 25px;
+    padding: 35px;
+    width: 500px;
+}
+
+.container a{
+    color:#735D78;
+}
+
+.contact-header{
+    font-size: 20px;
+    
+    text-align: center;
+    grid-column:1/3;
+}
+
+.phone{
+    text-align: center;
+    font-weight:bold;
+}
+
+.email{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+h2{
+    color: #666;
+    margin:5px;
+}
+ section{
+    margin: 32px 32px;
+    padding: 36px 15px;
+ }
+
+
+#linksHead{
+    text-align: center;
+    text-decoration: underline;
+    padding: 25px;
+}
+
+
+.link-box{
+    display: flex;
+    justify-content: space-around;
+    border-style: outset;
+
+}
+
+.link-box a{
+    text-decoration: none;
+    padding: .25em .25em;
+    font-size: 16px;
+    color:#5A7D7C;
+    font-weight: bold;
+}
+
+.link-box a:hover{
+    background: #abbaba;
+    
+}
+
+
+
+header{
+    padding: 1em 2em;
+    color: #333;
+    margin-top: 32px;
+
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    max-width: 350px;
+    padding: 7px;
+    background-color: #abbaba;
+}
+
+.projectsBox{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: 1fr 9fr;
+    background-color: #abbaba;
+    margin-top: 15px;
+    margin-bottom:10px;
+    color: #fff;
+    padding-top: 8px;
+    justify-items: center;
+    text-decoration: underline;
+}
+
+#projects h2{
+text-align: center;
+text-decoration: underline;
+
+}
+
+
+#biodata img{
+    margin-top: 36px;
+    margin-left: 180px;
+    margin-right: auto;
+}
+
+#projects img{
+    margin: 5px;
+}
